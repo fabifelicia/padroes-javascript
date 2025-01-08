@@ -1,0 +1,13 @@
+# Conceitos Básicos
+
+### Escrever codigo manutenivel
+### Minimizar o uso de variáveis globais: evita colisões de nomes, são compatilhadas por todo o código
+#### Preferir usar const e let (devido ao hoisting)
+### Loops for-in : preferivel utilizar para iterar objetos e não arrays
+### Evitar conversões implícitas: utilizar "==="
+### Conversão de números com parseInt() : sempre especifique o parâmetro de base numérica (Ex: parseInt(x, 10))
+
+## Convenções
+### Identação : padrão JSLint (04 espaços)
+### Chaves devem ser sempre usadas, mesmo se forem opcionais; coloque a chave de abertura na mesma linha da instrução anterios e sempre use ponto e vírgula.
+### Utilizar espaçosmelhora a legibilidade e consistência do código
